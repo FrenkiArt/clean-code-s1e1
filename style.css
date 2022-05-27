@@ -6,10 +6,10 @@ body {
 }
 
 .aaa {
-    width: 500px;
-    margin: 0 auto;
     display: block;
+    margin: 0 auto;
     text-align: right;
+    width: 500px;
 }
 
 .aaa img {
@@ -35,9 +35,9 @@ body {
 }
 
 .task {
-    width: 56%;
     display: inline-block;
     flex-grow: 1
+    width: 56%;
 }
 
 .task-row-wrapper {
@@ -63,10 +63,10 @@ button {
     background: none;
     border: 0px;
     color: #888;
+    cursor: pointer;
+    font-family: Lato, sans-serif;
     font-size: 15px;
     width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
 }
 
 button:hover {
@@ -76,26 +76,26 @@ button:hover {
 /* Heading */
 h3,
 label[for='new-task'] {
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
     border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
     margin: 0;
+    padding: 30px 0 10px;
     text-transform: uppercase;
 }
 
 input[type="text"] {
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #dDd;
     background: #FFF;
     border-radius: 6px;
-    font-family: Lato, sans-serif;
+    border: 1px solid #dDd;
     color: #888;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    height: 21px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0 9px;
 }
 
 input[type="text"]:focus {
@@ -113,14 +113,13 @@ input#new-task {
 }
 
 /* Task list */
-li {
-    overflow: hidden;
-    padding: 20px 0;
+li { 
+    align-items: center;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    overflow: hidden;
+    padding: 20px 0;
 }
 
 li>* {
@@ -132,9 +131,9 @@ li>input[type="checkbox"] {
 }
 
 li>label {
-    padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
+    padding-left: 10px;
     width: 226px;
 }
 
