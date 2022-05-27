@@ -9,14 +9,14 @@ body {
     display: block;
     margin: 0 auto;
     text-align: right;
-    width: 500px;
+    width: 500px; 
 }
 
-.header img {
+.header__poster {
     width: 100%;
 }
 
-.header .more_inf {
+.header__link-more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -36,8 +36,7 @@ body {
 
 .task {
     display: inline-block;
-    flex-grow: 1
-    width: 56%;
+    flex-grow: 1 width: 56%;
 }
 
 .task-row-wrapper {
@@ -113,7 +112,7 @@ input#new-task {
 }
 
 /* Task list */
-li { 
+li {
     align-items: center;
     border-bottom: 1px solid #eee;
     display: flex;
